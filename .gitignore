@@ -1,23 +1,77 @@
-/vendor/
-node_modules/
-npm-debug.log
-yarn-error.log
+# Node Modules
+/hinhco-web/node_modules/
 
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
+# Laravel Specific
+/hinhco-web/vendor/
+/hinhco-web/public/storage
+/hinhco-web/public/hot
+/hinhco-web/storage/*.key
+/hinhco-web/.env
+/hinhco-web/.env.*
+/hinhco-web/.phpunit.result.cache
+/hinhco-web/composer.lock
 
-# Laravel 5 & Lumen specific
-public/storage
-public/hot
+# Vue.js Production Build
+/hinhco-web/dist/
+/hinhco-web/build/
 
-# Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
+# Logs and Cache
+/hinhco-web/npm-debug.log*
+/hinhco-web/yarn-debug.log*
+/hinhco-web/yarn-error.log*
+/hinhco-web/.cache
+/hinhco-web/.eslintcache
 
-storage/*.key
-.env
-Homestead.yaml
-Homestead.json
-/.vagrant
-.phpunit.result.cache
+# IDE Specific Files
+/hinhco-web/.idea/
+/hinhco-web/.vscode/
+/hinhco-web/*.suo
+/hinhco-web/*.ntvs*
+/hinhco-web/*.njsproj
+/hinhco-web/*.sln
+/hinhco-web/*.sw?
+
+# OS Specific Files
+/hinhco-web/.DS_Store
+/hinhco-web/Thumbs.db
+
+# Testing
+/hinhco-web/coverage/
+/hinhco-web/*.lcov
+
+# Babel, ESLint, Webpack, TypeScript Configs
+/hinhco-web/*.babelrc
+/hinhco-web/*.eslintrc
+/hinhco-web/*.stylelintrc
+/hinhco-web/*.tsbuildinfo
+/hinhco-web/*.browserslistrc
+
+# Optional npm/Yarn cache directory
+/hinhco-web/.npm/
+/hinhco-web/.pnp.*
+/hinhco-web/.yarn/*
+!/hinhco-web/.yarn/cache
+!/hinhco-web/.yarn/patches
+!/hinhco-web/.yarn/releases
+!/hinhco-web/.yarn/plugins
+!/hinhco-web/.yarn/sdks
+!/hinhco-web/.yarn/versions
+
+# Storybook and Misc
+/hinhco-web/out/
+/hinhco-web/storybook-static/
+/hinhco-web/node_modules/@storybook/
+
+# Laravel Dusk (for browser testing)
+/hinhco-web/tests/Browser/screenshots
+/hinhco-web/tests/Browser/console
+/hinhco-web/tests/Browser/source
+
+# Laravel IDE Helper files
+/hinhco-web/_ide_helper.php
+/hinhco-web/_ide_helper_models.php
+
+# Other temporary and backup files
+/hinhco-web/*.tmp
+/hinhco-web/*.temp
+/hinhco-web/*.backup
